@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <!-- Date & Time Options -->
+    <entry name="use24Hour" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="showSeconds" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="showDateOnPanel" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="dateFormat" type="String">
+      <default>ddd, MMM d</default>
+    </entry>
+    <entry name="timeFormat" type="String">
+      <default></default>
+    </entry>
+
+    <!-- Timezone & Location Options -->
+    <entry name="autoDetectTimezone" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="selectedTimezone" type="String">
+      <default>Local</default>
+    </entry>
+
+    <!-- Dual-Page Layout Ordering -->
+    <entry name="calendarOnLeft" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <!-- Font & Appearance Settings -->
+    <entry name="fontFamily" type="String">
+      <default></default>
+    </entry>
+    <entry name="timeFontSize" type="Int">
+      <default>13</default>
+    </entry>
+    <entry name="dateFontSize" type="Int">
+      <default>11</default>
+    </entry>
+    <entry name="showNotificationBadge" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="showNotificationCount" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="isDarkTheme" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <!-- KDE Online Accounts Sync Settings -->
+    <entry name="selectedOnlineAccountId" type="String">
+      <default></default>
+    </entry>
+    <entry name="selectedOnlineAccountName" type="String">
+      <default></default>
+    </entry>
+    <entry name="selectedOnlineAccountProvider" type="String">
+      <default></default>
+    </entry>
+    <entry name="autoSyncOnlineAccount" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="onlineAccountSyncInterval" type="Int">
+      <default>30</default>
+    </entry>
+    <entry name="lastOnlineSyncTime" type="String">
+      <default></default>
+    </entry>
+
+    <!-- Panel Background & Blur Sync -->
+    <entry name="panelBackgroundMode" type="String">
+      <default>follow_panel</default>
+    </entry>
+    <entry name="customOpacity" type="Double">
+      <default>0.75</default>
+      <min>0.20</min>
+      <max>1.00</max>
+    </entry>
+    <entry name="panelBlurEnabled" type="Bool">
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>

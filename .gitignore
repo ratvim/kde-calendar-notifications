@@ -1,0 +1,5 @@
+# Temporary and editor files
+*~
+*.swp
+.directory
+.DS_Store

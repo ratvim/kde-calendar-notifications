@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPlugin": {
+        "Id": "org.kde.plasma.calendarnotifications",
+        "Name": "Calendar & Notification Center",
+        "Description": "Unified dual-page Calendar, Agenda, and Notification Center for KDE Plasma 6",
+        "Icon": "preferences-system-time",
+        "Authors": [
+            {
+                "Name": "KDE Plasma Community",
+                "Email": "plasma-devel@kde.org"
+            }
+        ],
+        "Category": "Date and Time",
+        "License": "GPL-3.0-or-later",
+        "Version": "1.2.1",
+        "Website": "https://kde.org/plasma-desktop/"
+    },
+    "X-Plasma-Provides": [
+        "org.kde.plasma.trayitem"
+    ]
+}
